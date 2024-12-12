@@ -169,26 +169,24 @@ h2 {
   transform: translateY(-2px);
 }
 
-/* Keep your existing media queries and grid layouts */
 .images-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));  /* Increased from 300px */
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));  
   box-sizing: border-box;
   margin-bottom: 10rem;
-  row-gap: 4rem; /* Space between rows */
-  column-gap: 2rem; /* Space between columns */
+  row-gap: 4rem; 
+  column-gap: 2rem; 
 }
 
 @media (min-width: 640px) {
   .images-grid {
-    grid-template-columns: repeat(1, 1fr); /* 2 columns on small screens */
+    grid-template-columns: repeat(1, 1fr); 
   }
 }
 
 @media (min-width: 1024px) {
   .images-grid {
-    grid-template-columns: repeat(2, 1fr); /* 3 columns on larger screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -311,9 +309,9 @@ h2 {
 }
 
 .media-container img{
-  width: 100%; /* Fit the width of the container */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensure the image is not distorted */
-  display: block; /* Avoid extra gaps caused by inline elements */
+  width: 100%; 
+  height: auto; 
+  object-fit: contain; 
+  display: block; 
 
 }
